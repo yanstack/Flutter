@@ -4,7 +4,8 @@
         "dockerfile": "Dockerfile"
     },
     "extensions": [
-        "dart-code.flutter"  // Extensión de Flutter para VS Code
+        "dart-code.flutter" , // Extensión de Flutter para VS Code
+         "dart-code.dart-code" 
     ],
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
