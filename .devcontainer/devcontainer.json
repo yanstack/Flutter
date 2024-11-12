@@ -1,0 +1,13 @@
+{
+    "name": "Flutter Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "extensions": [
+        "dart-code.flutter"  // Extensión de Flutter para VS Code
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "flutter doctor"
+}
